@@ -1,6 +1,6 @@
-# **Investing**
+# **Dafiti**
 
-## O que é Investing?
+## O que é Dafiti?
 
 A Dafiti é o primeiro destino para compras de moda e lifestyle, sempre oferecendo uma coleção inteira para cada busca e inspiração.
 
