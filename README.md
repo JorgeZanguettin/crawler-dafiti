@@ -21,7 +21,7 @@ product_value_with_discount : String,
 ## Amostra
 
 | PRODUCT_NAME | PRODUCT_URL | PRODUCT_DETAILS | PRODUCT_BRAND | PRODUCT_VALUE_WITH_DISCOUNT |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | Rasteira Slide Melissa Beach Preto | https://www.dafiti.com.br/Rasteira-Slide-Melissa-Beach-Preto-4637162.html | Rasteira Slide Melissa Beach PretoTamanho: 38Ocasião/Estilo: CasualMaterial Externo: PVCMaterial Interno: PVCMaterial da Sola: PVCOs produtos Melissa são confeccionados em Melflex, PVC de formulação exclusiva da marca, 100% reciclável, responsável por oferecer resistência, maciez e flexibilidade às peças. | Melissa | R$ 109,90 |
 | Sapatênis Reserva Recortes Cinza | https://www.dafiti.com.br/Sapatenis-Reserva-Recortes-Cinza-3874180.html | Sapatênis Reserva Recortes CinzaFechamento: CadarçoOcasião/Estilo: CasualMaterial: TêxtilMaterial Interno: Têxtil | Reserva | R$ 164,99 |
 | Slip On Santa Lolla New Preto | https://www.dafiti.com.br/Slip-On-Santa-Lolla-New-Preto-3150268.html | Slip On Santa Lolla New Preto Tipo de Produto: Slip OnBico: RedondoTamanho: 38Material: SintéticoMaterial Interno: TêxtilMaterial da Sola: BorrachaCaracterísticas Especiais: Acabamento resinado e detalhe da marca. | Santa Lolla | R$ 79,99 |
