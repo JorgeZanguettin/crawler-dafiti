@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 ciag-robot = "*"
+requests = "*"
+bs4 = "*"
 
 [dev-packages]
 
