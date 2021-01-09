@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4a5bdf8cb160c4802a2453f8155ad34f529b284f40e2808396c0a2fd1f973fb3"
+            "sha256": "ec36782edc96ed0ca77f59904b43e8a0465915cce6909e1ca4bb304bbb7a6c07"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -106,10 +106,10 @@
         },
         "ciag-robot": {
             "hashes": [
-                "sha256:62af8f20c97d5da09117fc367ba8ecf620d9a33a70f21123fa9abf0b94663c0a"
+                "sha256:b5ea63d8657b188e7f6464e78971c7158e09a6a7cd5cdd52147a89d5bc22d821"
             ],
             "index": "pypi",
-            "version": "==0.3.0"
+            "version": "==0.4.dev1610153303"
         },
         "cssselect": {
             "hashes": [

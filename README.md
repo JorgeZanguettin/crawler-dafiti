@@ -34,3 +34,15 @@ product_value_with_discount : String,
 2. Direcione o seu bash de preferencia a pasta raiz do repositorio e instale as dependencias utilizando o comando ```pip install -r requirements.txt``` ou ```pip3 install -r requirements.txt``` .
 3. Execute o Crawler com o comando ```python dafiti.py``` ou ```python3 dafiti.py``` .
 4. Pronto! Os dados coletados serão armazenados em um arquivo CSV na raiz do projeto com o nome **products.csv**.
+
+
+
+
+### versão com py-robot 
+
+[Instalação pipenv](https://github.com/pypa/pipenv#installation)
+
+```sh
+pipenv install
+pipenv run python dafiti_with_robot.py
+```
