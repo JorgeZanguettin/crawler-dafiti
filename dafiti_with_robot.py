@@ -25,15 +25,18 @@ collector = pipe(
             css('div.product-box a[href].product-box-link.is-lazyloaded.image.product-image-rotate'),
             attr('href'),
             foreach(
-                get(),
-                dict(
-                    name=pipe( css('[itemprop=name]'), as_text() ),
-                    url=pipe( context(), jsonpath('$.url'), any() ),
-                    details=pipe( css('[itemprop=description]'), as_text() ),
-                    brand=pipe( css('[itemprop=brand]'), as_text() ),
-                    value_with_discount=pipe( css('[data-field=finalPrice]'), as_text() ),
+                suppress(
+                    get(),
+                    dict(
+                        name=pipe( css('[itemprop=name]'), as_text() ),
+                        url=pipe( context(), jsonpath('$.url'), any() ),
+                        details=pipe( css('[itemprop=description]'), as_text() ),
+                        brand=pipe( css('[itemprop=brand]'), as_text() ),
+                        value_with_discount=pipe( css('[data-field=finalPrice]'), as_text() ),
+                    ),
                 ),
             ),
+            filter( lambda it: it is not None ),
             tap(dict_csv(const('products-with-robot.csv'), mode='a+')),
             limit=1,
         ),

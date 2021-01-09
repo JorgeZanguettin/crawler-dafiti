@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ciag-robot = "==0.4.dev1610153303"
+ciag-robot = "==0.4.dev1610168567"
 requests = "*"
 bs4 = "*"
 
